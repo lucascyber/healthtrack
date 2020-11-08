@@ -4,19 +4,18 @@
 <html>
 
 <head>
-<jsp:include page="/components/head.html" />
+	<jsp:include page="/components/head.html"/>
 </head>
 
 <body>
-	<jsp:include page="/components/menu.jsp" />
+	<jsp:include page="/components/menu.jsp"/>
 	
 	<div class="main-content" id="panel">
 		<jsp:include page="components/header.jsp">
-			<jsp:param name="title" value="Resumo" />
+			<jsp:param name="title" value="Pressão arterial" />
 			<jsp:param name="username" value="Steve Jobs" />
 		</jsp:include>
 	</div>
-
 	<!-- Core -->
 	<script src="assets/vendor/jquery/dist/jquery.min.js"></script>
 	<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

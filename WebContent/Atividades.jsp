@@ -4,7 +4,7 @@
 <html>
 
 <head>
-<jsp:include page="/components/head.html" />
+	<jsp:include page="/components/head.html" />
 </head>
 
 <body>
@@ -12,7 +12,7 @@
 	
 	<div class="main-content" id="panel">
 		<jsp:include page="components/header.jsp">
-			<jsp:param name="title" value="Resumo" />
+			<jsp:param name="title" value="Atividades físicas" />
 			<jsp:param name="username" value="Steve Jobs" />
 		</jsp:include>
 	</div>

@@ -1,5 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page 
+	language="java"
+	contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1" import="java.nio.charset.StandardCharsets"%>
 <!-- Topnav -->
 <nav
 	class="navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom">
@@ -55,9 +57,9 @@
 					<nav aria-label="breadcrumb"
 						class="d-none d-md-inline-block ml-md-4">
 						<ol class="breadcrumb breadcrumb-links breadcrumb-dark">
-							<li class="breadcrumb-item"><a href="#"><i
+							<li class="breadcrumb-item"><a href="index.jsp"><i
 									class="fas fa-home"></i></a></li>
-							<li class="breadcrumb-item"><a href="${request.getHeader('referer')}">Início</a></li>
+							<li class="breadcrumb-item"><a href="index.jsp">Início</a></li>
 							<li class="breadcrumb-item active" aria-current="page">
 								<%
 									if (request.getParameter("title") != null) {

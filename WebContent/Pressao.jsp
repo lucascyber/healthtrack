@@ -12,7 +12,7 @@
 	
 	<div class="main-content" id="panel">
 		<jsp:include page="components/header.jsp">
-			<jsp:param name="title" value="Pressão arterial" />
+			<jsp:param name="title" value="Pressao arterial" />
 			<jsp:param name="username" value="Steve Jobs" />
 		</jsp:include>
 	</div>
